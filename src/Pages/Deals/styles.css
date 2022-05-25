@@ -1,0 +1,32 @@
+.Deals {
+    min-height: 100vh;
+    
+}
+
+.sidebar-hide {
+    /* z-index: -2; */
+    /* height: 100vh; */
+    position: relative;
+}
+.pagination {
+    border-radius: 4;
+    margin-top: 1rem;
+    padding: 16px;
+  }
+.dealsContainer {
+ 
+}
+.productContainer {
+    min-height: 70vh;
+}
+
+@media only screen and (max-width:600px) {
+    .sidebar-hide {
+        display: none;
+    }
+    .productContainer {
+        align-items: center;
+        justify-content: center !important;
+    }
+   
+}
